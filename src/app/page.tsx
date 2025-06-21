@@ -23,7 +23,9 @@ export default function Home() {
         </p>
         <div className="mb-12 mt-2 web3-logos move-up-socials">
           <a
-            href="#"
+            href="https://github.com/luxsan21"
+            target="_blank"
+            rel="noopener noreferrer"
             className="transition-transform hover:scale-110"
             style={{ color: "#00e0ff" }}
             aria-label="GitHub"
@@ -37,7 +39,9 @@ export default function Home() {
             />
           </a>
           <a
-            href="#"
+            href="https://x.com/Luxsan21"
+            target="_blank"
+            rel="noopener noreferrer"
             className="transition-transform hover:scale-110"
             style={{ color: "#00e0ff" }}
             aria-label="X / Twitter"
@@ -51,7 +55,9 @@ export default function Home() {
             />
           </a>
           <a
-            href="#"
+            href="https://farcaster.xyz/luxsan"
+            target="_blank"
+            rel="noopener noreferrer"
             className="transition-transform hover:scale-110"
             style={{ color: '#8D5BFF' }}
             aria-label="Farcaster"
@@ -65,7 +71,9 @@ export default function Home() {
             />
           </a>
           <a
-            href="#"
+            href="https://zora.co/@luxsan"
+            target="_blank"
+            rel="noopener noreferrer"
             className="transition-transform hover:scale-110"
             style={{ color: '#16FF99' }}
             aria-label="Zora"
