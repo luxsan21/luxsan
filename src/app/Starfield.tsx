@@ -48,7 +48,7 @@ export default function Starfield() {
     function animate() {
       if (!running || !ctx) return;
       ctx.clearRect(0, 0, w, h);
-      for (let s of stars) {
+      for (const s of stars) {
         s.x += s.dx;
         s.y += s.dy;
         if (s.x < 0) s.x = w;
