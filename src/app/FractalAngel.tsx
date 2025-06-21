@@ -9,7 +9,7 @@ const FractalAngel: React.FC<{ size?: number }> = () => {
       <h1 style={{
         color: '#fff',
         fontWeight: 700,
-        fontSize: '2.5rem',
+        fontSize: '3.2rem', // increased from 2.5rem
         marginTop: '2.5rem', // increased top margin
         marginBottom: '1.5rem',
         textAlign: 'center',
@@ -22,10 +22,11 @@ const FractalAngel: React.FC<{ size?: number }> = () => {
       </h1>
       <div style={{ width: '100%', display: 'flex', justifyContent: 'center' }}>
         <Image
-          src="/AdobeExpressfile.png"
+          src="/astronaut-angel.png"
           alt="Astronaut Angel"
-          width={500}
-          height={700}
+          width={525}
+          height={735}
+          className="float-astronaut"
           style={{ maxWidth: '100%', height: 'auto', marginTop: 0, display: 'block' }}
           priority
         />
