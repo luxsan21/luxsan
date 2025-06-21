@@ -1,28 +1,25 @@
-import Image from "next/image";
+import FractalAngel from "./FractalAngel";
 
 export default function Home() {
   return (
-    <div className="grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20 font-sans bg-bg text-fg">
-      <main className="flex flex-col gap-[32px] row-start-2 items-center sm:items-start">
-        <Image
-          className="dark:invert"
-          src="/next.svg"
-          alt="Next.js logo"
-          width={180}
-          height={38}
-          priority
-        />
-        <h1 className="text-4xl font-bold text-purple mb-2 tracking-tight">
-          Hi, I’m Luxsan
-        </h1>
-        <p className="text-lg text-blue font-medium mb-2 max-w-xl text-center sm:text-left">
-          Futuristic UI engineer obsessed with the intersection of design, code,
-          and the next wave of web experiences.
-        </p>
-        <p className="text-base text-white font-normal mb-6 max-w-xl text-center sm:text-left">
-          I believe the future of the web is immersive, accessible, and beautiful.
-          My mission is to craft digital experiences that feel like magic—where
-          design, code, and emotion blend seamlessly.
+    <div className="grid grid-rows-[1fr_20px] items-start justify-items-center min-h-screen p-0 pb-20 gap-16 sm:p-0 font-sans bg-bg text-fg">
+      <main className="flex flex-col gap-[32px] row-start-1 items-center sm:items-start w-full">
+        <FractalAngel />
+        <p className="text-base font-medium max-w-md text-left mx-auto" style={{
+          color: '#fff',
+          borderRadius: '0.75rem',
+          padding: '0.75rem 1.25rem',
+          lineHeight: 1.5,
+          fontWeight: 500,
+          marginTop: '-1.2rem',
+          width: '100%',
+          maxWidth: '420px',
+        }}>
+          I’m Luxsan — a builder on-chain, driven by a vision to help humanity
+          reach Kardashev Scale 1. Rooted in Christ, inspired by ancient wisdom,
+          and obsessed with code, I see technology, spirit, and matter as one. In
+          this new era of freedom, I’m here to create, connect, and lead the
+          movement toward a more conscious world.
         </p>
         <div className="flex gap-4 mb-8">
           <a
