@@ -270,3 +270,25 @@ body {
   border-radius: 50%;
   box-shadow: 0 0 32px 8px #9b5cff55, 0 0 64px 16px #9b5cff22;
 }
+
+#star-bg {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  z-index: -1;
+  pointer-events: none;
+}
+
+.move-up-socials {
+  display: flex;
+  gap: 2rem;
+  transform: translateY(-40px);
+}
+
+@media (max-width: 640px) {
+  .move-up-socials {
+    transform: translateY(-20px);
+  }
+}

@@ -21,7 +21,7 @@ export default function Home() {
           this new era of freedom, I’m here to create, connect, and lead the
           movement toward a more conscious world.
         </p>
-        <div className="flex mb-12 mt-2 web3-logos" style={{ gap: '2rem' }}>
+        <div className="mb-12 mt-2 web3-logos move-up-socials">
           <a
             href="#"
             className="transition-transform hover:scale-110"

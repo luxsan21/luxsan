@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Montserrat } from "next/font/google";
 import "./globals.css";
+import Starfield from "./Starfield";
 
 const montserrat = Montserrat({
   variable: "--font-montserrat",
@@ -20,7 +21,11 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className={montserrat.variable}>
-      <body className="font-sans bg-bg text-fg antialiased">{children}</body>
+      <body className="font-sans bg-bg text-fg antialiased">
+        {/* Starfield Canvas Background */}
+        <Starfield />
+        {children}
+      </body>
     </html>
   );
 }
