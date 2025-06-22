@@ -3,7 +3,7 @@ import FractalAngel from "./FractalAngel";
 export default function Home() {
   return (
     <div className="grid grid-rows-[1fr_20px] items-start justify-items-center min-h-screen p-0 pb-20 gap-16 sm:p-0 font-sans bg-bg text-fg">
-      <main className="flex flex-col gap-[32px] row-start-1 items-center sm:items-start w-full max-w-full px-2 box-border overflow-x-auto">
+      <main className="flex flex-col gap-[32px] row-start-1 items-center sm:items-start w-full max-w-full px-2 box-border overflow-x-hidden">
         <FractalAngel />
         <p className="text-base font-medium max-w-md text-left mx-auto break-words" style={{
           color: '#fff',
@@ -23,7 +23,7 @@ export default function Home() {
           this new era of freedom, I’m here to create, connect, and lead the
           movement toward a more conscious world.
         </p>
-        <div className="mb-12 mt-2 web3-logos move-up-socials">
+        <div className="mb-12 mt-2 web3-logos move-up-socials flex flex-wrap justify-center gap-4">
           <a
             href="https://github.com/luxsan21"
             target="_blank"
