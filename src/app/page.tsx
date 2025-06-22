@@ -3,9 +3,9 @@ import FractalAngel from "./FractalAngel";
 export default function Home() {
   return (
     <div className="grid grid-rows-[1fr_20px] items-start justify-items-center min-h-screen p-0 pb-20 gap-16 sm:p-0 font-sans bg-bg text-fg">
-      <main className="flex flex-col gap-[32px] row-start-1 items-center sm:items-start w-full">
+      <main className="flex flex-col gap-[32px] row-start-1 items-center sm:items-start w-full max-w-full px-2 box-border overflow-x-auto">
         <FractalAngel />
-        <p className="text-base font-medium max-w-md text-left mx-auto" style={{
+        <p className="text-base font-medium max-w-md text-left mx-auto break-words" style={{
           color: '#fff',
           borderRadius: '0.75rem',
           padding: '0.75rem 1.25rem',
@@ -14,6 +14,8 @@ export default function Home() {
           marginTop: '-1.2rem',
           width: '100%',
           maxWidth: '420px',
+          wordBreak: 'break-word',
+          overflowWrap: 'break-word',
         }}>
           I’m Luxsan — a builder on-chain, driven by a vision to help humanity
           reach Kardashev Scale 1. Rooted in Christ, inspired by ancient wisdom,
