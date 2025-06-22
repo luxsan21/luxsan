@@ -3,25 +3,18 @@ import FractalAngel from "./FractalAngel";
 export default function Home() {
   return (
     <div className="grid grid-rows-[1fr_20px] items-start justify-items-center min-h-screen p-0 pb-20 gap-16 sm:p-0 font-sans bg-bg text-fg">
-      <main className="flex flex-col gap-[32px] row-start-1 items-center sm:items-start w-full">
+      <main className="flex flex-col gap-8 row-start-1 items-center sm:items-start w-full px-4">
         <FractalAngel />
-        <p className="text-base font-medium max-w-md text-left mx-auto" style={{
-          color: '#fff',
-          borderRadius: '0.75rem',
-          padding: '0.75rem 1.25rem',
-          lineHeight: 1.5,
-          fontWeight: 500,
-          marginTop: '-1.2rem',
-          width: '100%',
-          maxWidth: '420px',
-        }}>
+        <p
+          className="mx-auto mt-[-1.2rem] rounded-xl bg-bg/60 p-4 text-base font-medium leading-relaxed text-white sm:p-5 md:text-lg max-w-sm md:max-w-md"
+        >
           I’m Luxsan — a builder on-chain, driven by a vision to help humanity
           reach Kardashev Scale 1. Rooted in Christ, inspired by ancient wisdom,
           and obsessed with code, I see technology, spirit, and matter as one. In
           this new era of freedom, I’m here to create, connect, and lead the
           movement toward a more conscious world.
         </p>
-        <div className="mb-12 mt-2 web3-logos move-up-socials">
+        <div className="mb-12 mt-2 flex flex-wrap justify-center gap-6 sm:gap-8 web3-logos move-up-socials">
           <a
             href="https://github.com/luxsan21"
             target="_blank"
@@ -35,7 +28,7 @@ export default function Home() {
               alt="GitHub Logo"
               width={45}
               height={45}
-              style={{ display: 'inline-block', verticalAlign: 'middle' }}
+              className="inline-block h-10 w-10 align-middle sm:h-12 sm:w-12"
             />
           </a>
           <a
@@ -51,7 +44,7 @@ export default function Home() {
               alt="X Logo"
               width={45}
               height={45}
-              style={{ display: 'inline-block', verticalAlign: 'middle' }}
+              className="inline-block h-10 w-10 align-middle sm:h-12 sm:w-12"
             />
           </a>
           <a
@@ -67,7 +60,7 @@ export default function Home() {
               alt="Farcaster Logo"
               width={45}
               height={45}
-              style={{ display: 'inline-block', verticalAlign: 'middle' }}
+              className="inline-block h-10 w-10 align-middle sm:h-12 sm:w-12"
             />
           </a>
           <a
@@ -83,7 +76,7 @@ export default function Home() {
               alt="Zora Logo"
               width={45}
               height={45}
-              style={{ display: 'inline-block', verticalAlign: 'middle' }}
+              className="inline-block h-10 w-10 align-middle sm:h-12 sm:w-12"
             />
           </a>
         </div>
