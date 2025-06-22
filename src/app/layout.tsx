@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Montserrat } from "next/font/google";
 import { Analytics } from "@vercel/analytics/next"
+import { SpeedInsights } from "@vercel/speed-insights/next"
 import "./globals.css";
 import Starfield from "./Starfield";
 
@@ -29,6 +30,8 @@ export default function RootLayout({
         {/* Starfield Canvas Background */}
         <Starfield />
         {children}
+        <Analytics />
+        <SpeedInsights />
       </body>
     </html>
   );
